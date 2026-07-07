@@ -1,17 +1,3 @@
-"""
-Run this locally after downloading all training_log_*.json files from Kaggle.
-
-Expected files in the same directory as this script:
-  training_log_baseline.json   (rename training_log (2).json to this)
-  training_log_ent_low.json
-  training_log_ent_med.json
-  training_log_ent_high.json
-  training_log_lr_low.json
-  training_log_lr_high.json
-  training_log_no_kwb.json
-  training_log_no_cc.json
-"""
-
 import json
 from pathlib import Path
 
